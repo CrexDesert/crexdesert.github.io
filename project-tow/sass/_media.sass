@@ -1,0 +1,345 @@
+@media ( max-width: 1420px )
+    .container
+        width: 100%
+        padding: 0px 10px
+    .location
+        &__body
+            width: 90%
+
+@media ( max-width: 900px )
+    .info
+        &__body
+            flex-direction: column-reverse
+            gap: 20px
+        &__left
+            width: 100%
+        &__right
+            width: 100%
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+        &__card
+            width: 49%
+            margin-bottom: 14px
+    .footer
+        &__body
+            justify-content: center
+        &__logo, &__language
+            display: none
+
+@media ( max-width: 840px )
+    .header
+        &__phone
+            padding: 0px
+            justify-content: center
+            width: 40px
+            border-radius: 50px
+            img
+                width: 24px
+            p
+                display: none
+
+@media ( max-width: 760px )
+    .main
+        padding-top: 140px
+    .promo
+        &__body
+            height: 240px
+        &__element
+            height: 240px
+        &__left
+            h1
+                font-size: 32px
+            h2
+                font-size: 16px
+        &__call
+            margin-top: 60px
+            p
+                font-size: 22px
+    .info
+        padding: 40px 0px
+        padding-top: 80px
+        &__card
+            img
+                width: 40px
+            p
+                font-size: 16px
+        &__info
+            font-size: 16px
+        &__line
+            flex-wrap: wrap
+        &__icon
+            width: 44px
+            height: 44px
+            p
+                font-size: 32px
+        &__text
+            p
+                font-size: 16px
+            a
+                font-size: 18px
+    .adv
+        padding: 30px 0px
+        &__info
+            font-size: 16px
+        &__top
+            gap: 10px
+            margin-bottom: 12px
+            p
+                font-size: 16px
+        &__card
+            padding: 12px
+            margin-bottom: 12px
+        &__descr
+            font-size: 14px
+        &__icon
+            width: 100%
+            min-width: 40px
+            max-width: 40px
+        &__right
+            max-height: 440px
+    .title
+        margin-right: 10px
+        transform: skewX(-10deg)
+        padding: 10px 20px
+        margin-bottom: 20px
+        p
+            font-size: 18px
+            text-align: left
+            transform: skewX(10deg)
+    .service
+        padding: 30px 0px
+        &__subtitle
+            font-size: 16px
+        &__text
+            font-size: 16px
+        &__number
+            width: 40px
+            height: 40px
+            font-size: 20px
+        &__block
+            padding: 12px
+            width: calc( 100% - 250px )
+        &__card
+            p
+                font-size: 16px
+            span
+                font-size: 14px
+                padding-top: 10px
+    .order
+        padding: 30px 0px
+        &__subtitle
+            font-size: 16px
+        &__right
+            p, span
+                font-size: 16px
+                margin-bottom: 10px
+                padding: 8px 12px
+        &__body
+            margin-bottom: 20px
+    .location
+        padding: 30px 0px
+        &__body
+            width: 100%
+            transform: skewX(0deg)
+            padding: 40px 20px
+            p
+                font-size: 18px
+                transform: skewX(0deg)
+            span
+                font-size: 16px
+                transform: skewX(0deg)
+    .filter
+        padding: 30px 0px
+        &__text, &__descr
+            font-size: 16px
+        &__right
+            p, span
+                font-size: 16px
+                padding: 12px
+                margin-bottom: 12px
+    .training
+        padding: 30px 0px
+        &__body
+            p
+                font-size: 16px
+    .price
+        padding: 30px 0px
+        &__subtitle, &__text, &__info
+            font-size: 16px
+            margin-bottom: 12px
+        &__descr
+            font-size: 16px
+            padding: 12px
+            margin-bottom: 12px
+    .faq
+        padding: 30px 0px
+        &__body
+            width: 100%
+        &__subtitle
+            font-size: 16px
+        &__top
+            padding: 14px
+            p
+                font-size: 16px
+        &__text
+            p
+                font-size: 16px
+    .more
+        padding: 30px 0px
+        &__body
+            transform: skewX(0deg)
+            width: 100%
+            padding: 40px 10px
+        &__title
+            font-size: 16px
+            transform: skewX(0deg)
+        &__subtitle
+            font-size: 16px
+            transform: skewX(0deg)
+        &__number
+            a
+                font-size: 16px
+                transform: skewX(0deg)
+    .review
+        padding: 20px 0px
+        &__subtitle
+            font-size: 16px
+            margin-bottom: 20px
+        &__card
+            padding: 12px
+            gap: 12px
+            span
+                font-size: 16px
+            p
+                font-size: 16px
+
+@media ( max-width: 640px )
+    .header
+        &__info
+            display: none
+    .adv
+        &__body
+            flex-direction: column
+            gap: 40px
+        &__right
+            width: 100%
+            overflow: visible
+            max-height: none
+            padding: 0px
+        &__left
+            width: 100%
+    .service
+        &__wrapper
+            flex-direction: column
+        &__block
+            width: 100%
+        &__line
+            // justify-content: space-between
+            gap: 10px
+    .order
+        &__body
+            flex-direction: column
+        &__left
+            width: 100%
+            margin-bottom: 20px
+        &__right
+            width: 100%
+    .filter
+        &__body
+            flex-direction: column-reverse
+        &__left
+            width: 100%
+        &__right
+            width: 100%
+            margin-bottom: 20px
+    .price
+        &__body
+            flex-direction: column
+        &__left
+            width: 100%
+            margin-bottom: 20px
+            display: flex
+            justify-content: center
+            align-items: center
+            img
+                width: 60%
+        &__right
+            width: 100%
+
+@media ( max-width: 480px )
+    .promo
+        // overflow: hidden
+        &__body
+            flex-direction: column-reverse
+            height: fit-content
+        &__right
+            width: 100%
+            padding-left: 0px
+            margin-bottom: 60px
+            height: fit-content
+            img
+                width: 80%
+        &__left
+            width: 100%
+            justify-content: flex-start
+            align-items: flex-start
+            position: relative
+            h1
+                font-size: 24px
+                text-align: left
+                position: relative
+                z-index: 1
+            h2
+                font-size: 14px
+                text-align: left
+                position: relative
+                z-index: 1
+            &::after
+                position: absolute
+                content: ""
+                width: 102%
+                height: 100px
+                background: #feca40
+                top: 50%
+                left: -10%
+                border-top-right-radius: 20px
+                border-bottom-right-radius: 20px
+                transform: translateY(-50%) skewX(-20deg)
+        &__element
+            display: none
+        &__call
+            p
+                font-size: 18px
+    .info
+        &__card
+            width: 100%
+            margin-bottom: 10px
+        &__line
+            flex-direction: column
+            gap: 10px
+            justify-content: flex-start
+            align-items: flex-start
+
+@media ( max-width: 460px )
+    .header
+        height: 60px
+        &__body
+            height: 40px
+        &__text
+            display: none
+        &__right, &__language
+            gap: 10px
+        &__lang
+            width: 28px
+            height: 28px
+            font-size: 12px
+        &__page
+            font-size: 14px
+        &__list
+            top: 60px
+        &__page
+            padding: 12px
+    .call
+        width: 60px
+        height: 60px
