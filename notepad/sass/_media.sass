@@ -1,0 +1,100 @@
+@media ( max-width: 7000px )
+    .title
+        width: 100%
+        p
+            text-align: center
+    .main
+        &__right
+            padding: 60px 10px
+    .wall
+        &__top
+            width: 100%
+        &__input
+            width: calc( 100% - 50px )
+
+@media ( max-width: 6800px )
+    .main
+        &__tab
+            p
+                font-size: 14px
+    .title
+        width: 100%
+        p
+            text-align: center
+            font-size: 14px
+    .wall
+        &__input
+            font-size: 14px
+        &__profile
+            // min-width: 60px
+            // max-width: 60px
+            // width: 60px
+            img
+                width: 50px
+                height: 50px
+                margin-bottom: 0px
+        &__message
+            margin-right: 0px
+            font-size: 14px
+            line-height: 1.4
+            margin-bottom: 0px
+        &__item
+            border-radius: 10px
+            background: #ffffff00
+            gap: 0px
+            flex-direction: column
+            width: 100%
+            padding: 0px
+            &-my
+                justify-content: flex-end
+                align-items: flex-end
+                .wall__date
+                    margin-left: auto
+                    padding-right: 8px
+                .wall__message
+                    margin-left: 0px
+                .wall__profile
+                    flex-direction: row-reverse
+                    
+        &__profile
+            background: #ffffff00
+            // align-items: flex-start
+            flex-direction: row
+            gap: 10px
+            padding: 0px
+        &__date
+            margin-left: 0px
+            padding: 6px 0px
+            margin-bottom: 0px
+            font-size: 8px
+            padding-left: 8px
+        &__name
+            font-size: 14px
+            text-align: center
+            min-width: fit-content
+            width: fit-content
+            color: #fff
+            // max-width: 66px
+            // white-space: nowrap
+            // overflow: hidden
+            // text-overflow: ellipsis
+            // display: none
+        &__status
+            font-size: 10px
+            color: #000
+            display: none
+        &__body
+            padding-top: 4px
+            display: flex
+            flex-direction: column-reverse
+    .users
+        &__list
+            justify-content: space-around
+        &__item
+            width: 40%
+            img
+                width: 100px
+                height: 100px
+        &__name
+            text-align: center
+            font-size: 14px
