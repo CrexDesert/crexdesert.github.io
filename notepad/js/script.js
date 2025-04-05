@@ -568,7 +568,7 @@ function paintListUsers(data) {
     document.querySelector('.users__count').innerHTML = `<p class="users__num users__num-active">Всі: ${numberOfUsers}</p><p class="users__num">Користувачі: ${numberOfClient}</p><p  class="users__num">Адміни: ${numberOfAdmin}</p>`;
 
     document.querySelectorAll('.users__item').forEach( (item, i) => {
-        if ( document.querySelectorAll('.users__name')[i].textContent == localStorage.getItem('NotepadAuthLogin') ) {
+        if ( document.querySelectorAll('.users__name')[i].textContent == document.querySelector('.main__login p').textContent ) {
             item.classList.add('users__item-my');
         }
     })
