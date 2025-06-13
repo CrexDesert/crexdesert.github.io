@@ -1,0 +1,397 @@
+@media ( max-width: 1920px )
+    .container
+        width: 100%
+        padding: 0px 20px
+        overflow: hidden
+    // .promo
+    //     &__slide
+    //         width: 500px
+    //         height: 500px
+    .write
+        &__right
+            height: 100%
+            position: relative
+            transform: translateX(0px)
+
+@media ( max-width: 1640px )
+    .promo
+        &__slide
+            width: 420px
+            height: 420px
+
+@media ( max-width: 1400px )
+    .wrapper
+        width: 100%
+    .promo
+        &__slide
+            width: 360px
+            height: 360px
+    .about
+        &__body
+            padding: 40px 120px
+    .join
+        &__body
+            gap: 0px
+        &__card, &__shadow
+            width: 32%
+        &__card
+            margin-bottom: 18px
+            height: 260px
+
+@media ( max-width: 1240px )
+    .intro
+        &__left
+            width: 50%
+        &__title
+            font-size: 42px
+        &__login, &__reg
+            padding: 30px 36px
+            padding-bottom: 60px
+        &__pagination
+            transform: translateY(-22px)
+        &__right
+            width: 48%
+        &__auth
+            width: 100%
+    .promo
+        &__slide
+            width: 300px
+            height: 300px
+    .about
+        &__body
+            padding: 40px 60px
+            border-radius: 20px
+        &__title
+            font-size: 34px
+            margin-bottom: 18px
+        &__text
+            margin-bottom: 28px
+            p
+                font-size: 20px
+        &__button
+            // width: 100%
+            height: 60px
+            p
+                font-size: 20px
+    .join
+        &__title
+            font-size: 34px
+            margin-bottom: 18px
+        &__card
+            height: fit-content
+    .find
+        &__title
+            font-size: 34px
+            margin-bottom: 18px
+        &__card
+            height: 80px
+    .stream
+        &__title
+            font-size: 34px
+            margin-bottom: 18px
+            width: 100%
+        &__subtitle
+            width: 80%
+            font-size: 22px
+        &__slide
+            width: 300px
+            height: 300px
+        &__button
+            p
+                font-size: 20px
+    .write
+        height: 560px
+        &__left
+            min-width: 40%
+        &__title
+            font-size: 34px
+            margin-bottom: 18px
+            width: 100%
+        &__button
+            width: 280px
+            p
+                font-size: 20px
+    .footer
+        &__card
+            width: 260px
+            margin: 0px
+
+@media ( max-width: 960px )
+    .join
+        &__shadow
+            display: none
+        &__card
+            width: 49%
+    .footer
+        &__title, &__link
+            font-size: 18px
+            margin-bottom: 20px
+        &__card
+            width: 24vw
+            gap: 0px
+
+@media ( max-width: 880px )
+    .header
+        display: none
+    .intro
+        padding-top: 40px
+        &__left
+            display: none
+        &__right
+            width: 100%
+    .find
+        &__card
+            padding-left: 40px
+            width: 100%
+            img
+                width: 26px
+            p
+                font-size: 20px
+    .write
+        height: 500px
+        &__circle
+            width: 380px
+            height: 380px
+        &__right
+            img
+                transform: translateX(54px)
+    .space
+        display: block
+    .hot
+        display: block
+        &__hand
+            width: 60%
+            margin: 0 auto
+
+@media ( max-width: 760px )
+    .footer
+        flex-direction: column-reverse
+        &__right
+            width: 100%
+            display: flex
+            justify-content: space-between
+            margin-bottom: 40px
+        &__left
+            width: 100%
+    .hot
+        &__hand
+            width: 70%
+
+@media ( max-width: 720px )
+    .join
+        // &__body
+        //     display: none
+        &__slider
+            // display: block
+            box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1)
+            border-radius: 20px
+            background: #fff
+        &__card
+            // border-radius: 0px
+            // box-shadow: none
+            border-radius: 20px
+            width: 100%
+    .stream
+        &__subtitle
+            width: 100%
+        &__slide
+            width: 240px
+            height: 240px
+
+@media ( max-width: 640px )
+    .find
+        &__card
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            height: 140px
+            border-radius: 20px
+            gap: 17px
+            padding-left: 0px
+            padding: 10px
+            img
+                width: 36px
+            p
+                text-align: center
+    .write
+        display: none
+    .stream
+        margin-bottom: 0px
+    .footer
+        flex-direction: column
+        padding: 52px 15px
+        &__title, &__link
+            font-size: 16px
+            line-height: 22px
+        &__right
+            flex-direction: column
+            margin-bottom: 0px
+            gap: 0px
+        &__card
+            width: 100%
+        &__link
+            margin-bottom: 10px
+        &__title
+            margin-bottom: 12px
+    .hot
+        &__hand
+            width: 80%
+    
+@media ( max-width: 500px )
+    .about
+        &__button
+            width: 100%
+    .join
+        &__body
+            display: none
+        &__slider
+            display: block
+            box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1)
+            border-radius: 20px
+            background: #fff
+        &__card
+            border-radius: 0px
+            box-shadow: none
+            border-radius: 20px
+            width: 100%
+    .stream
+        &-clone
+            display: block
+            margin-bottom: 69px
+        &__circle
+            display: block
+    .find, .join, .about, .intro
+        &__circle1, &__circle2, &__circle
+            display: none
+    .find
+        margin-bottom: 57px
+    .swiper-pagination-bullet
+        height: 3px
+        width: 17px
+    .hot
+        &__hand
+            width: 90%
+
+@media ( max-width: 400px )
+    .intro
+        &__auth
+            border-radius: 18px
+        &__label
+            font-size: 12px
+            margin-bottom: 7px
+        &__input, &__variable
+            height: 35px
+            p
+                font-size: 12px
+        &__input
+            border-radius: 6px
+            font-size: 12px
+            padding-left: 12px
+            &::placeholder
+                font-size: 12px
+        &__agree
+            gap: 14px
+            p
+                font-size: 10px
+                padding-right: 14px
+        &__area
+            margin-bottom: 22px
+        &__button
+            height: 38px
+            p
+                font-size: 14px
+        &__descr
+            font-size: 10px
+        &__google
+            height: 38px
+            p
+                font-size: 11px
+        &__icon
+            width: 33px
+            height: 33px
+            img
+                width: 20px
+        &__hr
+            font-size: 12px
+        &__eye
+            right: 12px
+            img
+                width: 14px
+    .promo
+        width: 100%
+        transform: none
+        margin-bottom: 60px
+        padding-top: 61px
+        &__body
+            padding-left: 0px
+            padding-right: 0px
+    .about
+        margin-bottom: 50px
+        &__body
+            padding: 40px 12px
+            border-radius: 20px
+        &__title
+            font-size: 26px
+            margin-bottom: 13px
+        &__text
+            margin-bottom: 28px
+            p
+                font-size: 16px
+        &__button
+            width: 100%
+            height: 60px
+            p
+                font-size: 20px
+    .join
+        margin-bottom: 60px
+        &__title
+            font-size: 26px
+            line-height: 1
+            margin-bottom: 30px
+        &__card
+            padding: 28px 24px
+            min-height: 230px
+            height: auto
+        &__name
+            margin-bottom: 12px
+            img
+                width: 24px
+                height: auto
+            p
+                font-size: 18px
+        &__text
+            font-size: 16px
+    .find
+        &__title
+            line-height: 1
+            font-size: 26px
+            margin-bottom: 30px
+        &__card
+            height: 168px
+            margin-bottom: 20px
+            p
+                font-size: 16px
+    .stream
+        &__title
+            line-height: 1.2
+            font-size: 24px
+            text-align: left
+            margin-bottom: 24px
+        &__subtitle
+            font-size: 16px
+            text-align: left
+            margin-bottom: 30px
+        &__slider
+            margin-bottom: 30px
+        &__slide
+            width: 100%
+            height: 305px
+            border-radius: 30px
+        &__button
+            height: 60px
+            width: 100%
+    .hot
+        &__hand
+            width: 100%
+        &__circle
+            top: 70%
